@@ -1,0 +1,19 @@
+{
+    "name": "app",
+    "version": "1.0.0",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "test": "standard && node app.js"
+    },
+    "author": "Lina Abu Hijleh",
+    "dependencies": {
+        "cheerio": "^1.0.0-rc.2",
+        "request": "^2.07.0",
+        "request-cookies": "^1.1.0",
+        "request-promise": "^4.2.5"
+    },
+    "devDependencies": {
+        "standard": "^14.3.1"
+    }
+}
